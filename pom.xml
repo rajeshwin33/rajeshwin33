@@ -217,6 +217,18 @@
     <tag>HEAD</tag>
     <url>http://github.com/jleetutorial/maven-project</url>
   </scm>
+    
+  <distributionManagement>
+		 <snapshotRepository>
+		    <id>nexusRepo</id>
+		    <url>http://18.117.88.178:8081/repository/sample-snapshots/</url>
+		 </snapshotRepository>
+		
+		<repository>
+		    <id>nexusRepo</id>
+		    <url>http://18.117.88.178:8081/repository/sample-releases/</url>
+		</repository>
+  	</distributionManagement>
 
   <prerequisites>
     <maven>3.0.3</maven>
