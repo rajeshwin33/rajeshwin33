@@ -43,12 +43,12 @@
   
   <distributionManagement>
     <snapshotRepository>
-      <id>nexus-snapshots</id>
+      <id>nexus-releases-snapshots</id>
 	  <name>snapshots</name>
       <url>http://18.117.88.178:8081/repository/simple-snapshot/</url>
     </snapshotRepository>
     <repository>
-      <id>nexus-releases</id>
+      <id>nexus-releases-snapshots</id>
 	  <name>releases</name>
       <url>http://18.117.88.178:8081/repository/simple-release/</url>
     </repository>
