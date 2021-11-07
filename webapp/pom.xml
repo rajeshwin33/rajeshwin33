@@ -42,15 +42,15 @@
   </dependencies>
   
   <distributionManagement>
-    <!-- <snapshotRepository>
+    <snapshotRepository>
       <id>nexus-snapshots</id>
 	  <name>snapshots</name>
-      <url>http://18.117.88.178:8081/repository/maven-snapshots/</url>
-    </snapshotRepository> -->
+      <url>http://18.117.88.178:8081/repository/simple-snapshot/</url>
+    </snapshotRepository>
     <repository>
       <id>nexus-releases</id>
 	  <name>releases</name>
-      <url>http://18.117.88.178:8081/repository/maven-releases/</url>
+      <url>http://18.117.88.178:8081/repository/simple-release/</url>
     </repository>
   </distributionManagement>
 
