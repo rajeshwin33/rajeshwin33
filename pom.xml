@@ -34,12 +34,12 @@
     </site>
     <snapshotRepository>
       <id>nexusRepo</id>
-      <url>http://18.117.88.178:8081/repository/sample-snapshots/</url>
+      <url>http://18.220.68.29:8081/repository/maven-snapshots/</url>
      </snapshotRepository>
 		
      <repository>
       <id>nexusRepo</id>
-      <url>http://18.117.88.178:8081/repository/sample-releases/</url>
+      <url>http://18.220.68.29:8081/repository/maven-releases/</url>
      </repository>
     
   </distributionManagement>
